@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="1327.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.javafinalproject.SecondScene">
+   <children>
+      <ImageView fitHeight="535.0" fitWidth="1212.0" layoutX="-1.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@movies.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="-1.0" prefHeight="12.0" prefWidth="1327.0" style="-fx-background-color: #555555;" />
+      <AnchorPane layoutY="86.0" style="-fx-background-color: #6A0DAD;" />
+      <Label layoutX="-1.0" layoutY="12.0" prefHeight="73.0" prefWidth="123.0" styleClass="BlendBtoGrey" stylesheets="@Aesthetics.css" text="  Menu" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="1.0" centerY="0.9128787914911907" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="42.0" layoutX="131.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo-menu-png-2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logoutButton" layoutX="534.0" layoutY="436.0" mnemonicParsing="false" onAction="#Logout" prefHeight="80.0" prefWidth="174.0" styleClass="LogOut" stylesheets="@Aesthetics.css" text="Log Out">
+         <font>
+            <Font name="Playbill" size="48.0" />
+         </font>
+      </Button>
+      <Label fx:id="CompanyTitle" layoutX="950.0" layoutY="13.0" prefHeight="74.0" prefWidth="376.0" styleClass="CompanyTitle" stylesheets="@Aesthetics.css" text="Label">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="TotalProfitTitle" layoutX="1017.0" layoutY="423.0" prefHeight="74.0" prefWidth="242.0" styleClass="profit" stylesheets="@Aesthetics.css" text="Label">
+         <font>
+            <Font name="Agency FB Bold" size="22.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="86.0" prefHeight="535.0" prefWidth="383.0" styleClass="BlendBtoGrey" stylesheets="@Aesthetics.css">
+         <children>
+            <Button fx:id="MaxRevenue" layoutY="86.0" mnemonicParsing="false" onAction="#ShowMaxRevenueMovies" prefHeight="80.0" prefWidth="310.0" styleClass="LatestMovie" stylesheets="@Aesthetics.css" text="Movies with Maximum Revenue">
+               <font>
+                  <Font name="Playbill" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="LatestMovies" layoutY="174.0" mnemonicParsing="false" onAction="#ShowLatestMovies" prefHeight="80.0" prefWidth="310.0" styleClass="TotalProfit" stylesheets="@Aesthetics.css" text="Latest Movies">
+               <font>
+                  <Font name="Playbill" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="AddMovie" layoutY="262.0" mnemonicParsing="false" onAction="#AddMovies" prefHeight="80.0" prefWidth="310.0" styleClass="AddMovie" stylesheets="@Aesthetics.css" text="Add Movies">
+               <font>
+                  <Font name="Playbill" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="TransferMovie" layoutY="349.0" mnemonicParsing="false" onAction="#TransferMovie" prefHeight="80.0" prefWidth="310.0" styleClass="AddMovie" stylesheets="@Aesthetics.css" text="Transfer Ownership of a Movie">
+               <font>
+                  <Font name="Playbill" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="ShowAllMovies" mnemonicParsing="false" onAction="#ShowAllMovies" prefHeight="80.0" prefWidth="310.0" styleClass="MaxRevenue" stylesheets="@Aesthetics.css" text="All Movies" textAlignment="CENTER">
+               <font>
+                  <Font name="Playbill" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imageView" fitHeight="340.0" fitWidth="376.0" layoutX="950.0" layoutY="85.0" pickOnBounds="true">
+         <effect>
+            <Reflection />
+         </effect></ImageView>
+      <Button fx:id="SearchMovies" layoutX="990.0" layoutY="497.0" mnemonicParsing="false" onAction="#SearchMovies" prefHeight="80.0" prefWidth="310.0" styleClass="MaxRevenue" stylesheets="@Aesthetics.css" text="Search Movies" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="MoviePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="972.0" styleClass="Hbox" stylesheets="@Aesthetics.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.javafinalproject.ShowMovieController">
+   <children>
+      <VBox prefHeight="210.0" prefWidth="334.0">
+         <children>
+            <Label fx:id="MovieName" prefHeight="134.0" prefWidth="314.0" text="Movie Name" textAlignment="CENTER" textFill="#9f9f9f">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#Transfer" prefHeight="75.0" prefWidth="199.0" styleClass="Transfer" stylesheets="@Aesthetics.css" text="Transfer">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox prefHeight="274.0" prefWidth="206.0" style="-fx-background-radius: 15;">
+         <children>
+            <Label prefHeight="65.0" prefWidth="142.0" text="Genres :" textFill="#9f9f9f">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="10.0" prefHeight="49.0" prefWidth="145.0" text="Length :" textFill="#9f9f9f">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="109.0" prefHeight="70.0" prefWidth="211.0" text="Year Of origin :" textFill="#afafaf">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="159.0" prefHeight="50.0" prefWidth="165.0" text="Revenue :" textFill="#afafaf">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="196.0" prefHeight="50.0" prefWidth="205.0" text="Total Budget :" textFill="#afafaf">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="246.0" layoutY="10.0" prefHeight="283.0" prefWidth="256.0">
+         <children>
+            <Label fx:id="Genres" prefHeight="65.0" prefWidth="257.0" text="genre" textFill="#bfbfbf">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Length" layoutX="10.0" layoutY="10.0" prefHeight="49.0" prefWidth="259.0" text="length" textFill="#cfcfcf">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Year" layoutX="10.0" layoutY="109.0" prefHeight="55.0" prefWidth="257.0" text="year" textFill="#dfdfdf">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="Revenue" layoutX="10.0" layoutY="159.0" prefHeight="50.0" prefWidth="258.0" text="revenue" textFill="#efefef">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Budget" layoutX="10.0" layoutY="196.0" prefHeight="50.0" prefWidth="264.0" text="budget" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="210.0" prefWidth="202.0">
+         <children>
+            <ImageView fx:id="ThumbNails" fitHeight="210.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

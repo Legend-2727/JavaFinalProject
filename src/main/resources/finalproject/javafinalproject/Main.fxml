@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LoginScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.javafinalproject.MainController">
+   <children>
+      <ImageView fx:id="FirstBG" fitHeight="417.0" fitWidth="638.0" layoutX="-31.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@firstbg.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="83.0" layoutY="172.0" prefHeight="202.0" prefWidth="445.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label layoutX="38.0" layoutY="21.0" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: #000000;" styleClass="Username" stylesheets="@Aesthetics.css" text="Username :" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Username" layoutX="213.0" layoutY="20.0" prefHeight="46.0" prefWidth="218.0" />
+            <Button fx:id="LoginButton" layoutX="143.0" layoutY="92.0" mnemonicParsing="false" onAction="#Login" prefHeight="35.0" prefWidth="130.0" styleClass="MaxRevenue" stylesheets="@Aesthetics.css" text="Login">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="WelcomeMessage" layoutX="60.0" layoutY="148.0" prefHeight="46.0" prefWidth="325.0">
+               <font>
+                  <Font name="Agency FB Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="301.0" layoutY="92.0" mnemonicParsing="false" onAction="#onClickExit" prefHeight="35.0" prefWidth="130.0" styleClass="MaxRevenue" stylesheets="@Aesthetics.css" text="Exit">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="380.0" prefHeight="158.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label fx:id="MovieCount" layoutX="262.0" layoutY="23.0" prefHeight="46.0" prefWidth="130.0" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="CompanyCount" layoutX="246.0" layoutY="85.0" prefHeight="46.0" prefWidth="130.0" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="comments" layoutX="403.0" prefHeight="158.0" prefWidth="198.0" textFill="WHITE">
+               <font>
+                  <Font name="Blackadder ITC" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="MovieCount1" layoutX="172.0" layoutY="23.0" prefHeight="46.0" prefWidth="74.0" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="CompanyCount1" layoutX="172.0" layoutY="85.0" prefHeight="46.0" prefWidth="74.0" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

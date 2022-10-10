@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="139.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.javafinalproject.GetSearchInfo">
+    <children>
+        <Label fx:id="Info" layoutY="-1.0" prefHeight="72.0" prefWidth="635.0" style="-fx-background-color: #000;" text="Label" textAlignment="CENTER">
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.8522727344975327" radius="0.5">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <font>
+                <Font name="Agency FB" size="36.0" />
+            </font>
+        </Label>
+        <TextField fx:id="lowLimit" layoutX="37.0" layoutY="77.0" prefHeight="56.0" prefWidth="178.0" promptText="low limit" style="-fx-background-color: #dfdfdf; -fx-background-radius: 35; -fx-border-color: #0ff; -fx-border-radius: 35;">
+            <font>
+                <Font name="Arial" size="18.0" />
+            </font>
+        </TextField>
+        <Button fx:id="SearchInfoRuntime" layoutX="488.0" layoutY="77.0" mnemonicParsing="false" onAction="#SearchRuntime" prefHeight="30.0" prefWidth="97.0" style="-fx-border-radius: 35;" text="Search" />
+      <TextField fx:id="maxLimit" layoutX="248.0" layoutY="77.0" prefHeight="56.0" prefWidth="178.0" promptText="max limit" style="-fx-background-color: #dfdfdf; -fx-background-radius: 35; -fx-border-color: #0ff; -fx-border-radius: 35;">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="SearchInfoRuntime1" layoutX="500.0" layoutY="110.0" mnemonicParsing="false" onAction="#cancel" prefHeight="30.0" prefWidth="75.0" style="-fx-border-radius: 35;" text="Cancel" />
+    </children>
+</AnchorPane>

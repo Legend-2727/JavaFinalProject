@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="884.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.javafinalproject.AddMovie">
+   <effect>
+      <Glow />
+   </effect>
+   <children>
+      <ImageView fitHeight="615.0" fitWidth="885.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@125281831-abstract-background-with-white-film-strip-frame-and-clapper-board-isolated-on-white-background-desig.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="61.0" prefHeight="66.0" prefWidth="229.0" style="-fx-background-color: #353535; -fx-background-radius: 25;" text="Name Of the Movie :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="MovieName" layoutX="321.0" layoutY="10.0" prefHeight="46.0" prefWidth="295.0" promptText="Name">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Genre1" layoutX="321.0" layoutY="129.0" prefHeight="46.0" prefWidth="295.0" promptText="Genre">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="61.0" layoutY="130.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Genre 1 :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="184.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Genre 2 :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Genre2" layoutX="321.0" layoutY="183.0" prefHeight="46.0" prefWidth="295.0" promptText="Genre">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="61.0" layoutY="236.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Genre 3 :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="289.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Runtime :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="343.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Total Revenue :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="398.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Total Budget :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Genre3" layoutX="321.0" layoutY="235.0" prefHeight="46.0" prefWidth="295.0" promptText="Genre">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Runtime" layoutX="321.0" layoutY="288.0" prefHeight="46.0" prefWidth="295.0" promptText="Runtime">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Revenue" layoutX="321.0" layoutY="342.0" prefHeight="46.0" prefWidth="295.0" promptText="Revenue">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Budget" layoutX="321.0" layoutY="397.0" prefHeight="46.0" prefWidth="295.0" promptText="Budget">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="333.0" layoutY="453.0" mnemonicParsing="false" onAction="#MovieAdded" prefHeight="58.0" prefWidth="230.0" styleClass="Confirm" stylesheets="@Aesthetics.css" text="Confirm">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.9242424170176189" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="61.0" layoutY="80.0" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" text="Year of Origin :">
+         <textFill>
+            <RadialGradient centerX="0.42511014056100715" centerY="0.8712121374679335" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Origin" layoutX="321.0" layoutY="79.0" prefHeight="46.0" prefWidth="295.0" promptText="Year Of Origin">
+         <font>
+            <Font name="ItalicT" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="734.0" layoutY="453.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="58.0" prefWidth="149.0" styleClass="Confirm" stylesheets="@Aesthetics.css" text="Cancel">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.9242424170176189" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
