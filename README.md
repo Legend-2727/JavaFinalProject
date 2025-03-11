@@ -27,10 +27,6 @@ This project is a **server-client movie management system** developed using **Ja
 - **Frontend:** JavaFX with FXML
 - **Backend:** Java (Socket Programming for Server-Client Communication)
 
-## GitHub Repository
-For full source code and implementation details, visit the project repository:
-👉 **[GitHub Repo](https://github.com/Legend-2727/JavaFinalProject)**
-
 ## Disclaimer
 This project is a prototype and may receive further updates based on user feedback.
 
